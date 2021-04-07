@@ -9,7 +9,7 @@ function setup() {
   serial = new p5.SerialPort();
 
   serial.list();
-  serial.open('/dev/tty.usbmodem14101');
+  serial.open('COM5');
 
   serial.on('connected', serverConnected);
 
