@@ -1,6 +1,6 @@
 let serial;
 let latestData;
-let portName = '/dev/tty.usbmodem14101';
+let portName = 'COM5';
 let diameter; // not clear on the variable name, here
 const count = 6
 let radius;
